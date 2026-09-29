@@ -3,6 +3,14 @@ import heroImg from './assets/hero.png'
 import typescriptLogo from './assets/typescript.svg'
 import viteLogo from './assets/vite.svg'
 import { setupCounter } from './counter.ts'
+import "./task-1";
+import "./task-2";
+import "./task-3";
+import "./task-4";
+import "./task-5";
+import "./task-6";
+import "./task-7";
+import "./task-8";
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="center">
@@ -12,8 +20,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <img src="${viteLogo}" class="vite" alt="Vite logo" />
   </div>
   <div>
-    <h1>Get started</h1>
-    <p>Edit <code>src/main.ts</code> and save to test <code>HMR</code></p>
+    <h1>TypeScript basics</h1>
+    <p>Відкрийте консоль (F12), щоб побачити вивід завдань.</p>
   </div>
   <button id="counter" type="button" class="counter"></button>
 </section>
