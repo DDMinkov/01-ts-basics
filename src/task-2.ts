@@ -1,14 +1,12 @@
 interface Product {
   readonly id: number;
-  name: string;
-  price: number;
+  title: string;
   description?: string;
 }
 
 const product: Product = {
   id: 1,
-  name: "Laptop",
-  price: 1200,
+  title: "Laptop",
 };
 
 console.log(product);

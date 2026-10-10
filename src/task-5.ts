@@ -1,7 +1,17 @@
 type Status = "loading" | "success" | "error";
 
 function logStatus(status: Status): void {
-  console.log(`Current status: ${status}`);
+  switch (status) {
+    case "loading":
+      console.log("Loading...");
+      break;
+    case "success":
+      console.log("Data loaded successfully!");
+      break;
+    case "error":
+      console.log("An error occurred!");
+      break;
+  }
 }
 
 logStatus("loading");
